@@ -1,0 +1,31 @@
+<!-- Para correr la pagina se utilizo node.js
+     Usa el comando "http-server" para correr el servidor donde se encuentra la página    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div class="hero">
+          <h1>Página de</h1>
+          <h2>Esferas</h2>
+        </div>
+        <div class="buttons">
+          <button type="button" id="gravity-btn">
+            Activar o Desactivar la gravedad
+          </button>
+          <button type="button" id="colors-btn">
+            Colores aleatorios
+          </button>
+        </div>
+        <canvas id="webgl-canvas"></canvas>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
